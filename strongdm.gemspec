@@ -14,8 +14,8 @@ Gem::Specification.new do |s|
   s.required_ruby_version = ">= 2.3.0"
   s.required_rubygems_version = ">= 1.3.6"
 
-  s.add_runtime_dependency "grpc", "~> 1.27.0", ">= 1.27.0"
-  s.add_runtime_dependency "grpc-tools", "~> 1.27.0", ">= 1.27.0"
+  s.add_runtime_dependency "grpc", "~> 1.28.0", ">= 1.28.0"
+  s.add_runtime_dependency "grpc-tools", "~> 1.28.0", ">= 1.28.0"
   s.add_runtime_dependency "openssl", "~> 2.1.2", ">= 2.1.2"
 
   s.files = `find . | grep -v "strongdm-#{SDM::VERSION}.gem"`.split("\n")
